@@ -7,7 +7,7 @@ This project adheres to Semantic Versioning and follows the Keep a Changelog for
 ---
 
 ### [4.06] – Current  
-Summary: Enhanced Fade Off system, UV remapping, and improved object respawn handling.
+Summary: Enhanced Fade Off system, UV remapping, improved object respawn handling, and added custom damage actions.
 
 Added  
 - Fade Off Effects SO – Fade Off Effects are no longer hardcoded enums; they are now ScriptableObjects, independent from the 3D Breakable Core Pack.
@@ -20,7 +20,11 @@ Added
   - PieceShrinkFadeAllParts  
   - PieceShrinkKeepKeyPartsFade  
   - SinkAllParts  
-  - SinkKeepKeyPart  
+  - SinkKeepKeyPart
+- ActionTaken.CustomDamage – New action allowing users to set initial item durability and deal custom damage via:
+  - ConductAction(int _damageCustom = 0)
+  - ConductAction(Vector3 _hitPoint, Vector3 _forceVector, int _damageCustom = 0)
+  - Designed to be usable during OnCollisionEnter.
 
 Changed
 - UV Map - All Items models from 3D Brakable Core Pack were again unvraped in Blender, as preparation for coming soon Fade Off Effect Dissolve 
