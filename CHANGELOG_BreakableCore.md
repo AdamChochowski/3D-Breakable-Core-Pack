@@ -3,10 +3,16 @@ Changelog – 3D Breakable Core Pack (CatBorg Studio)
 All notable changes to the 3D Breakable Core Pack Unity asset will be documented in this file.  
 This project adheres to Semantic Versioning and follows the Keep a Changelog format.
 
-
 ---
 
-### [4.06] – Current  
+### [4.07] – Current  
+Summary: Small update as part of preparations for the next Breakable expansion pack dedicated to Halloween.
+
+Added
+- Torch flickering script as part of Halloween preparations.
+---
+
+### [4.06] – Fade Off Revolution 
 Summary: Enhanced Fade Off system, UV remapping, improved object respawn handling, and added custom damage actions.
 
 Added  
